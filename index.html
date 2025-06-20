@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header class="profile-header">
+      <div class="profile-image">
+        <img src="me.jpg" alt="Profile Picture" id="profile-pic">
+      </div>
+      <div class="profile-info">
+        <h1 class="name">CHRISTIAN DOMINIQUE R. LAZALITA</h1>
+        <p class="title">DIT-2I Student</p>
+        <p class="location"><i class="fas fa-map-marker-alt"></i>Asian College Dumaguete City</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="profile-nav">
+      <button class="nav-btn active" data-tab="about">About</button>
+      <button class="nav-btn" data-tab="skills">Skills</button>
+      <button class="nav-btn" data-tab="projects">Projects</button>
+      <button class="nav-btn" data-tab="resume">Resume</button>
+      <button class="nav-btn" data-tab="contact">Contact</button>
+    </nav>
+
+    <main class="profile-content">
+      <section id="about" class="tab-content active">
+        <h2>About Me</h2>
+        <h3>Hi there!!</h3>
+        <p>Its me Christian your IT student in Asian College nice meeting you. I welcome you here in this profile for
+          you to know me better and for us to be acquainted and hoping you will learn something from me. Being an IT
+          students is a tough one but never or less I give up, but instead I still keep on fighting, pursuing and
+          searching for a chances to be success in the better future. </p><br></br>
+        <p>​I'm a second-year IT student in Asian college Dumaguete City, pursuing my diploma in Information
+          Technology. My journey here has been filled with exciting challenges and opportunities to expand my knowledge.
+          I'm passionate about technology and eager to learn more about the IT industry. Join me as I explore my studies
+          and to be the better person in the future. Leading a class as a class president is always at most and always
+          at will to support and help one another to create a better environment and for the better of everyone to
+          cooperate easily and as for that no one is being left behind.</p><br></br>
+        <P>When im not studying or working, you can find me playing games, watching movies, bar hopping, family bonding,
+          or doing some sports activities.I live in Larena Drive Taclobo Dumaguete City, where the gentle people are and
+          I'm a second year college in Asian College Dumaguete City. I live with my family in the Lazalita's Compound
+          where many stories and events are held and happened. I'm 23 years of age, a Diploma IT student. I love to
+          travel to see all the beautiful and majestic places, and I also love movie marathon such as anime, action,
+          horror, sci-fi, comedy, and drama. I also love animals, especially my pets which is my dogs and cats. I'm also
+          a nature lover. I love foods and always want food. I also love running marathon, and I am also a believer who
+          has a strong faith. Well I have so much more to tell about, but these things are more important to me, living
+          in this kind of life is always a blessings to me thanks to God i always trust in him for my future, thus i
+          shall live this life to the fullest. </P>
+        <div class="stats">
+          <div class="stat">
+            <h3>2</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat">
+            <h3>5+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat">
+            <h3>20+</h3>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="tab-content">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul>
+              <li>JavaScript (ES6+)</li>
+              <li>React.js</li>
+              <li>Vue.js</li>
+              <li>HTML5 & CSS3</li>
+              <li>Sass/SCSS</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>Express.js</li>
+              <li>Django</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Docker</li>
+              <li>AWS</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="projects" class="tab-content">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>E-Commerce Platform</h3>
+            <p>A full-featured online store built with React and Node.js</p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Task Management App</h3>
+            <p>A collaborative project management tool with real-time updates</p>
+            <div class="project-tech">
+              <span>Vue.js</span>
+              <span>Socket.io</span>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Weather Dashboard</h3>
+            <p>A responsive weather app with location-based forecasts</p>
+            <div class="project-tech">
+              <span>JavaScript</span>
+              <span>API Integration</span>
+              <span>CSS Grid</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="resume" class="tab-content">
+        <h2>Resume</h2>
+        <p>You can view my resume below or download it by clicking the link:</p>
+        <div class="resume-container">
+          <embed src="RESUME.pdf" type="application/pdf" width="100%" height="600px">
+          <div class="resume-fallback">
+            <p>Your browser doesn't support PDF viewing. Please download the resume instead.</p>
+          </div>
+        </div>
+        <div class="resume-actions">
+          <a href="RESUME.pdf" class="project-link" download>Download Resume</a>
+          <a href="RESUME.pdf" class="project-link" target="_blank">Open in New Tab</a>
+        </div>
+      </section>
+      <section id="contact" class="tab-content">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>crlazalita.student@asiancollege.edu.ph</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>0962 652 7835</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Asian College Dumaguete</span>
+            </div>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
